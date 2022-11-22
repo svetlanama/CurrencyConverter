@@ -53,8 +53,6 @@ final class CurrencyConverterTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    
-    //MARK: MOCK DATA
     func testConvertCurrencyBalance() async throws {
         SettingsManager.sharedInstance.resetConversionsCount()
         
@@ -123,13 +121,6 @@ final class CurrencyConverterTests: XCTestCase {
                     XCTAssertEqual(error.localizedDescription, "Balance can't be negative after conversion.")
                 }
             }
-        }
-    }
- 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
         }
     }
 

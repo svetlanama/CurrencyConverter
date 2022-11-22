@@ -7,7 +7,6 @@
 
 import Foundation
 import Alamofire
-import PromiseKit
 
 struct ConvertCurrencyResponse: Decodable {
     let amount: String

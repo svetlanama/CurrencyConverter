@@ -7,7 +7,6 @@ target 'CurrencyConverter' do
 
   # Pods for CurrencyConverter
   pod 'Alamofire', '~> 5.6.2'
-  pod 'PromiseKit', '~> 6.18.1'
 
   target 'CurrencyConverterTests' do
     inherit! :search_paths

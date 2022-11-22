@@ -18,11 +18,9 @@ class CurrencyBalancesDataSource: ObservableObject {
     func configure(balance: [Balance]) {
         self.balance = balance
     }
-    
 }
 
 struct CurrencyBalancesView: View {
-    
     @ObservedObject var dataSource = CurrencyBalancesDataSource()
     
     init(balance: [Balance] ) {

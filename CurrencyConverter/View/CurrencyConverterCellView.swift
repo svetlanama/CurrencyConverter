@@ -64,7 +64,7 @@ class CurrencyConverterCellViewDataSource: ObservableObject {
     
     
     func configure(amount: Double, currency: Currency, amountChanged:  @escaping ((_ amount: Double) -> Void)) {
-        self.amount = amount // .format()
+        self.amount = amount
         self.currency = currency
         
         self.amountChanged = amountChanged
