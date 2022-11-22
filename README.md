@@ -1,7 +1,7 @@
 # Currency Converter
 
 <p align="row">
-<img src= "https://github.com/svetlanama/CurrencyConverter/demo/CurrencyConverter.gif" width="400" >
+<img src= "https://github.com/svetlanama/CurrencyConverter/blob/main/demo/CurrencyConverter.gif" width="400" >
 </p>
 
 ## Usage
